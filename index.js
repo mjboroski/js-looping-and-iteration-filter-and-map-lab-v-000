@@ -22,6 +22,8 @@ function exactMatch(list, attrPair){
   });
 }
 
-function exactMatchToList(list, revenue){
-
+function exactMatchToList(list, attrPair){
+  return exactMatch(list, attrPair).map(function(driver){
+    return driver.name;
+  })
 }
