@@ -1,6 +1,6 @@
 function driversWithRevenueOver(list, rev){
   list.filter(function(driver){
-    return driver.revenue > rev
+    return driver.revenue > rev;
   })
 }
 
