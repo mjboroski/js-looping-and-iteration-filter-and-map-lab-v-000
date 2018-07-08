@@ -10,7 +10,7 @@ function driverNamesWithRevenueOver(list, rev){
   })
 }
 
-function exactMatch(list, attrPair{key : value}){
+function exactMatch(list, attrPair){
   return list.filter(function(driver){
     return driver.attrPair[key] > attrPair[key];
 }
